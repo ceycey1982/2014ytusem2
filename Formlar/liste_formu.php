@@ -10,7 +10,8 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <form action="liste_formu_islem.php" method="POST">
+       
+        <form enctype="multipart/form-data" action="liste_formu_islem.php" method="POST">
             <select name="meyve">
                 <option value="0">Seçiniz</option>
                 <option value="1">Elma</option>
